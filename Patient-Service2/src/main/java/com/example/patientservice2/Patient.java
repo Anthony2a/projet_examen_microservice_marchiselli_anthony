@@ -8,14 +8,12 @@ public class Patient {
     private String phone;
     private static int id_counter = 0;
 
-    // Constructeur vide
     public Patient() {
-        this.id = ++id_counter; // Assigne un ID unique à chaque instance
+        this.id = ++id_counter;
     }
 
-    // Constructeur plein
     public Patient(String name, String email, String phone) {
-        this.id = ++id_counter; // Assigne un ID unique à chaque instance
+        this.id = ++id_counter;
         this.name = name;
         this.email = email;
         this.phone = phone;
